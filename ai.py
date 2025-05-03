@@ -1,7 +1,11 @@
+import os
 import openai
 from typing import List
+from dotenv import load_dotenv
 
-api_key=""
+load_dotenv()
+
+api_key=os.getenv("openai_api_key")
 client=openai.OpenAI(api_key=api_key)
 #Function to Generate memo based on the notes and template
 
