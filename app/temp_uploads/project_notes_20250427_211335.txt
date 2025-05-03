@@ -1,0 +1,2 @@
+This is a cybersecurity project, designed security design, network infrastructure to build web application for defense . Especially explosives data. 
+Involved new modules such as file search, integration with AI to find similar explosives using RAG etc
