@@ -1,7 +1,7 @@
 import openai
 from typing import List
 
-api_key="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"
+api_key=""
 client=openai.OpenAI(api_key=api_key)
 #Function to Generate memo based on the notes and template
 
